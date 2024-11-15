@@ -1,0 +1,215 @@
+.img01 {
+  padding-left: 0px;
+}
+
+.order_block {
+  font-family: Arial, sans-serif;
+}
+.prod_img_wrapper {
+  max-width: 300px;
+  margin: 15px auto;
+  position: relative;
+}
+.remark {
+  font-size: 15px;
+}
+.prod_img {
+  width: 100%;
+  max-width: 300px;
+}
+.priceс {
+  position: absolute;
+  font-family: Arial, sans-serif;
+  right: 0;
+  bottom: 0;
+  color: #000;
+  box-shadow: rgba(0, 0, 0, 0.8) 0 3px 30px;
+  width: 165px;
+  height: 98px;
+  text-align: center !important;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1.3;
+  transform: rotateZ(-7deg);
+  margin: 0 auto 0;
+  background: linear-gradient(to right, #eea513 0, #fded13 100%);
+  border-width: 2px;
+  border-style: solid;
+  border-color: #fff;
+  border-image: initial;
+  border-radius: 19%;
+}
+span.discountс {
+  display: block;
+  margin-top: 4px;
+  font-size: 18px;
+}
+.price_main {
+  border-bottom: 2px solid #d31812;
+  font-size: 24px;
+  line-height: 0;
+  margin: 0 auto;
+}
+.js_old_price {
+  display: block;
+  margin: 0 auto;
+}
+
+.data_label {
+  line-height: 30px;
+}
+.country_select {
+  display: none !important;
+  width: 52% !important;
+}
+.order_form {
+  display: block !important;
+  margin: 0 auto !important;
+  text-align: center !important;
+}
+@media screen and (max-width: 480px) {
+  .img01,
+  .img02 {
+    padding-left: 0;
+  }
+  .country_select {
+    width: 96% !important;
+  }
+  .page-wrap {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+}
+.main-link {
+  display: block;
+  margin: 40px auto;
+  padding: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: #de0606;
+  text-align: center;
+  color: #fff !important;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+.main-link:hover {
+  opacity: 0.8;
+}
+.time_remains {
+  font-size: 1.1em;
+  color: red;
+  font-weight: 700;
+}
+.time_remains_title {
+  padding-top: 15px;
+  text-align: center;
+  font-size: 22px;
+}
+.step {
+  text-align: center;
+}
+
+form {
+  margin: 30px auto 0;
+  text-align: center;
+}
+input,
+textarea {
+  margin: 0 auto 15px;
+  padding: 10px;
+  width: 50%;
+  border: 2px solid grey;
+  border-radius: 5px;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+.form-control {
+  display: block;
+  height: 42px;
+  box-sizing: border-box;
+  max-width: 350px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+  -webkit-transition: border-color 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+}
+input,
+textarea {
+  margin: 0 auto 15px;
+  padding: 10px;
+  width: 50%;
+  border: 2px solid grey;
+  border-radius: 5px;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+.btn3,
+.submit-form {
+  display: table-cell;
+  -webkit-box-shadow: 0 4px 5px #ccc;
+  box-shadow: 0 4px 5px #ccc;
+  -webkit-animation: scale 1s infinite alternate;
+  animation: scale 1s infinite alternate;
+}
+.btn3,
+.submit-form {
+  padding: 14px 20px 13px;
+  color: #fff !important;
+  text-decoration: none;
+  font-size: 18px;
+  background: #ff2828;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 350px;
+  width: 100%;
+  -webkit-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+  font-weight: 700;
+  margin: 0px 0 0;
+}
+
+
+.old-yellow {
+  font-weight: 700;
+  text-decoration: line-through;
+  font-size: 24px;
+}
+.yellow {
+  font-weight: 700;
+  color: red;
+  font-size: 22px;
+}
+
+
+.price_main {
+  color: red;
+}
+.price_main {
+  border-bottom: 2px solid #d31812;
+  font-size: 25px;
+  line-height: 0;
+  margin: 0 36px;
+}
+
+.timer {
+  color: #ff0000;
+  font-weight: 700;
+}
