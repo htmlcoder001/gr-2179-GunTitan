@@ -114,6 +114,34 @@
       line-height: 26px;
       font-family: sans-serif;
     }
+    
+    @media (max-width: 1080px) {
+      .page-wrap {
+        padding-left: 0;
+        padding-right: 12px;
+      }
+      .article {
+        padding-left: 12px;
+      }
+      .custom-header__wrapper {
+        padding: 0 12px;
+      }
+    }
+
+    @media (max-width: 960px) {
+      .custom-sidebar {
+        display: none;
+      }
+    }
+
+    @media (max-width: 575px) {
+      .custom-header__search {
+        display: none;
+      }
+      .custom-header__wrapper {
+        flex-direction: row-reverse;
+      }
+    }
   </style>
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
